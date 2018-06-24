@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ly.effect" >
+    <application>
+        <activity android:name=".materialanimation.ui.MaterialAnimationActivity"/>
+    </application>
+</manifest>
