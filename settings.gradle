@@ -1,1 +1,1 @@
-include ':app', ':effectlibrary'
+include ':app', ':effectlibrary', ':materiallibrary', ':networklibrary', ':weblibrary'

@@ -4,12 +4,13 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
+
 import com.ly.effect.R;
 
 /**
  * created by li,24/06/2018
  */
-public class MaterialAnimationActivity extends AppCompatActivity{
+public class MaterialAnimationActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

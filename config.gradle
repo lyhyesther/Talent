@@ -1,0 +1,19 @@
+/*全局配置*/
+ext{
+
+    android = [
+            compileSdkVersion       : 28,
+            buildToolsVersion       : '28.0.1',
+            minSdkVersion           : 17,
+            targetSdkVersion        : 28,
+            versionCode             : 1,
+            versionName             : "1.0.0",
+            applicationId           : "com.ly.talent",
+
+            androidSupportSdkVersion: "28.0.0-alpha3"
+    ]
+
+    dependencies = [
+            "design": "com.android.support:design:${android["androidSupportSdkVersion"]}"
+    ]
+}

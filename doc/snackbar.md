@@ -1,0 +1,9 @@
+Snackbars
+
+Snackbar通过在屏幕底部显示一个消息来对用户的操作进行一个简单地反馈。Snackbar在超时之后或用户在屏幕上交互之后，会自动消失。
+也可以滑动出屏幕。
+
+Snackbars提供了静态的make方法来以某种期望的方式呈现。这些方法生成的View会用来找到一个合适的ViewGroup，来显示它。一个比较合适的
+容器祖先就是CoordinatorLayout，如果都没找到，就使用根DecorView。
+
+其他种类的临时性的底部Bar可以继承自BaseTransientBottomBar来实现

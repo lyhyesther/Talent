@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.ly.effect.materialanimation.ui.MaterialAnimationActivity;
+import com.ly.material.MainMaterialActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,6 +17,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void clickToMaterialAnimation(View view){
         Navgator navgator = new Navgator();
-        navgator.navToCommon(this, MaterialAnimationActivity.class);
+        navgator.navToCommon(this, MainMaterialActivity.class);
     }
 }

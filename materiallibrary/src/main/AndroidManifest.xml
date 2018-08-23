@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ly.material" >
+
+<application>
+    <activity android:name=".MainMaterialActivity"/>
+    <activity android:name=".SnackBarActivity" />
+</application>
+
+</manifest>
