@@ -3,8 +3,8 @@
 /.idea
 /.gradle
 /gradle
-/androidTest
-/test
+/src/androidTest
+/src/test
 
 *.iml
 *.properties
