@@ -13,7 +13,7 @@ import java.util.concurrent.Executors;
 
 public class BlurTask {
     private static ExecutorService THREAD_POOL = Executors.newSingleThreadExecutor();
-    private Bitmap bitmap:
+    private Bitmap bitmap;
     private Callback callback;
     private WeakReference<Context> contextWeakRef;
     private BlurFactor factor;
@@ -42,7 +42,7 @@ public class BlurTask {
             @Override
             public void run() {
                 Context context = contextWeakRef.get();
-                BitmapDrawable bitmapDrawable = new BitmapDrawable(res, Blur.of());
+                BitmapDrawable bitmapDrawable = new BitmapDrawable(res, Blur.of(null,null));
 
             }
         });

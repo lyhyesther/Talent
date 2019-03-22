@@ -74,7 +74,8 @@ public class Blurry {
         }
 
         public ImageComposer capture(View view) {
-            return new Blurry.ImageComposer.ImageComposerListener();
+//            return new Blurry.ImageComposer.ImageComposerListener(){};
+            return null;
         }
 
         public Composer color(int color) {
@@ -83,7 +84,7 @@ public class Blurry {
         }
 
         public Blurry.BitmapComposer from() {
-
+            return null;
         }
 
 
@@ -115,7 +116,7 @@ public class Blurry {
                            //todo  listtener.
                         }
                     }
-                })
+                });
             }
         }
 
