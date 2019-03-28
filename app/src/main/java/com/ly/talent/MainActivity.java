@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void clickToMaterialAnimation(View view){
+    public void clickToMaterialAnimation(View view) {
         Navgator navgator = new Navgator();
         navgator.navToCommon(this, MainMaterialActivity.class);
     }

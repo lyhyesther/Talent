@@ -1,6 +1,7 @@
 package com.ly.effect;
 
 import android.content.Context;
+import android.graphics.BitmapFactory;
 
 import com.ly.effect.materialanimation.data.DataProvider;
 

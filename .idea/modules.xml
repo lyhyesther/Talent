@@ -7,7 +7,10 @@
       <module fileurl="file://$PROJECT_DIR$/effectlibrary/effectlibrary.iml" filepath="$PROJECT_DIR$/effectlibrary/effectlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/materiallibrary/materiallibrary.iml" filepath="$PROJECT_DIR$/materiallibrary/materiallibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/networklibrary/networklibrary.iml" filepath="$PROJECT_DIR$/networklibrary/networklibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resourcelibrary/resourcelibrary.iml" filepath="$PROJECT_DIR$/resourcelibrary/resourcelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utillibrary/utillibrary.iml" filepath="$PROJECT_DIR$/utillibrary/utillibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/weblibrary/weblibrary.iml" filepath="$PROJECT_DIR$/weblibrary/weblibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxing/zxing.iml" filepath="$PROJECT_DIR$/zxing/zxing.iml" />
     </modules>
   </component>
 </project>

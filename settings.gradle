@@ -1,1 +1,1 @@
-include ':app', ':effectlibrary', ':materiallibrary', ':networklibrary', ':weblibrary'
+include ':app', ':effectlibrary', ':materiallibrary', ':networklibrary', ':weblibrary', ':resourcelibrary', ':utillibrary', ':zxing'
